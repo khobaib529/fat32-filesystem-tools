@@ -1,12 +1,12 @@
-# FAT32 Reader
+# FAT32 Filesystem Tools
 
-A utility to read and display information from a FAT32 disk image.
+A simple set of tools written in C++ for educational purposes to read and format files as a FAT32 file system.
 
-## Compilation
+## Build Instructions
 
-Run `make` to build the `read_fat32` executable.
-
-## Usage
+Clone the repository to your local machine and run `make`:
 
 ```bash
-./read_fat32 <image_file> [num_entries]
+git clone https://github.com/khobaib529/fat32-filesystem-tools.git
+cd fat32-filesystem-tools
+make
